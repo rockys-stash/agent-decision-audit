@@ -76,7 +76,11 @@ def _commit(root: Path) -> str:
         out = subprocess.run(
             ["git", "rev-parse", "HEAD"], cwd=root, capture_output=True, text=True, check=True
         )
-        return out.stdout.strip()
+        dirty = subprocess.run(
+            ["git", "status", "--porcelain", "--", "src", "configs", "pyproject.toml", "uv.lock"],
+            cwd=root, capture_output=True, text=True, check=True,
+        ).stdout.strip()  # fmt: skip
+        return out.stdout.strip() + ("-dirty" if dirty else "")
     except (OSError, subprocess.CalledProcessError):
         return "unknown"
 
@@ -93,6 +97,7 @@ def reconstruction_seed(cfg: ExperimentConfig, seed: int) -> dict[str, Any]:
     agent = sim.agent
     counts: Counter[str] = Counter()
     causes: Counter[str] = Counter()
+    record_causes: Counter[str] = Counter()
     unrecorded: Counter[str] = Counter()
     answers: Counter[str] = Counter()
     for did in log.decision_ids():
@@ -114,6 +119,8 @@ def reconstruction_seed(cfg: ExperimentConfig, seed: int) -> dict[str, Any]:
                 )
                 same = r.status != "not_reconstructable" and route(r.replayed) == true_route
                 counts[f"record|{delay}|{lvl}|{dtype}|{r.status}|{int(same)}"] += 1
+                if r.status == "diverged" and r.divergence:
+                    record_causes[f"{delay}|{lvl}|{_cause(r.divergence)}"] += 1
                 if r.status == "unverifiable":
                     for u in r.unrecorded_inputs:
                         unrecorded[f"{delay}|{lvl}|{u.split(' (')[0]}"] += 1
@@ -140,7 +147,16 @@ def reconstruction_seed(cfg: ExperimentConfig, seed: int) -> dict[str, Any]:
                     causes[f"{delay}|human (not recorded for live re-execution)"] += 1
     types = Counter(t["type"] for t in sim.truth.values())
     return {"seed": seed, "decisions": len(sim.truth), "types": dict(types), "counts": dict(counts),
-            "live_divergence": dict(causes), "unrecorded": dict(unrecorded), "answers": dict(answers)}  # fmt: skip
+            "live_divergence": dict(causes), "record_divergence": dict(record_causes),
+            "unrecorded": dict(unrecorded), "answers": dict(answers)}  # fmt: skip
+
+
+def _cause(divergence: str) -> str:
+    """``rule 'x': differs in inputs, passed`` -> ``rule 'x' (inputs, passed)``."""
+    step, _, detail = divergence.partition(": ")
+    if detail.startswith("differs in "):
+        return f"{step} ({detail[len('differs in ') :]})"
+    return f"{step} ({detail})" if detail else step
 
 
 def summarise_reconstruction(
@@ -203,14 +219,17 @@ def summarise_reconstruction(
                                 "correct": mean_ci(per_seed_correct),
                                 **{k: tot.get(k, 0) / n for k in ("record", "replay_correct", "replay_wrong", "unanswerable", "record_wrong")}})  # fmt: skip
     causes: Counter[str] = Counter()
+    record_causes: Counter[str] = Counter()
     unrec: Counter[str] = Counter()
     for s in per_seed:
         causes.update(s["live_divergence"])
+        record_causes.update(s.get("record_divergence", {}))
         unrec.update(s["unrecorded"])
     types = Counter[str]()
     for s in per_seed:
         types.update(s["types"])
     return {"rows": rows, "answers": answers, "live_divergence": dict(causes),
+            "record_divergence": dict(record_causes),
             "unrecorded": dict(unrec), "decision_types": dict(types),
             "decisions": sum(s["decisions"] for s in per_seed)}  # fmt: skip
 
