@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Agent decision audit: tamper-evident decision traces, step-by-step replay and automated policy-violation detection for autonomous agents"
+type: software
+authors:
+  - alias: rockys-stash
+version: 1.0.0
+date-released: 2026-10-08
+license: MIT
+repository-code: "https://github.com/rockys-stash/agent-decision-audit"
+keywords:
+  - AI auditing
+  - accountability
+  - autonomous agents
+  - provenance
+  - tamper-evident logs
+  - replay
