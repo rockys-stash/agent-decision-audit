@@ -5,7 +5,10 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import sys
 from pathlib import Path
+
+LOOPBACK = {"127.0.0.1", "::1", "localhost"}
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -48,6 +51,10 @@ def main(argv: list[str] | None = None) -> int:
         return 0
     if args.cmd == "serve":
         import uvicorn
+
+        if args.host not in LOOPBACK and not os.environ.get("AGENTAUDIT_API_TOKEN"):
+            print(f"refusing to serve on {args.host} without AGENTAUDIT_API_TOKEN", file=sys.stderr)
+            return 2
 
         from agentaudit.api.app import create_app
 

@@ -4,7 +4,7 @@ help: ## List targets
 	@grep -E '^[a-z-]+:.*##' $(MAKEFILE_LIST) | awk -F':.*## ' '{printf "  %-12s %s\n", $$1, $$2}'
 
 setup: ## Install Python (uv) and console (npm) dependencies
-	uv sync
+	uv sync --locked
 	npm --prefix web ci
 
 test: ## Unit and API tests

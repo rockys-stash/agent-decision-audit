@@ -62,6 +62,7 @@ class RateLimiter:
 
 
 EXPENSIVE = ("/replay", "/tamper-lab")
+VERIFY_TTL_S = 5.0
 
 
 class GuardMiddleware(BaseHTTPMiddleware):
@@ -278,15 +279,29 @@ def create_app(root: Path, db_path: Path | None = None, static_dir: Path | None 
         )
         return {"checks": checks, "items": items, "injected": dict(injected)}
 
+    # Full verification reads every event (about 0.3 s for 17,708 events). Results are reused for
+    # a few seconds so that page loads cannot be turned into a CPU-exhaustion attack, while an
+    # out-of-band edit to the database still shows up almost at once.
+    verified: dict[str, Any] = {"at": -1e9, "report": None}
+    verify_lock = threading.Lock()
+
+    def verify_cached() -> Any:
+        with verify_lock:
+            if time.monotonic() - verified["at"] > VERIFY_TTL_S:
+                verified["report"] = verify_db(log, signer, witness, every)
+                verified["at"] = time.monotonic()
+            return verified["report"]
+
     @app.get("/api/integrity")
     def integrity() -> dict[str, Any]:
-        rep = verify_db(log, signer, witness, every)
+        rep = verify_cached()
         head = q("SELECT seq, hash FROM events ORDER BY seq DESC LIMIT 1")
         cps = log.checkpoints()
         return {**rep.as_dict(), "head_seq": head[0][0] if head else 0, "head": head[0][1] if head else None,
                 "last_checkpoint": cps[-1][0] if cps else None,
                 "anchors": [{"seq": s, "head": h} for s, h in witness.entries[-10:]],
-                "checkpoint_every": every, "anchor_every": meta.get("anchor_every")}  # fmt: skip
+                "checkpoint_every": every, "anchor_every": meta.get("anchor_every"),
+                "verified_seconds_ago": round(time.monotonic() - verified["at"], 1)}  # fmt: skip
 
     @app.post("/api/integrity/tamper-lab")
     def tamper_lab(body: TamperIn) -> dict[str, Any]:

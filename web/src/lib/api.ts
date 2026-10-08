@@ -127,6 +127,7 @@ export interface Integrity extends VerifyReport {
   anchors: { seq: number; head: string }[];
   checkpoint_every: number;
   anchor_every: number | null;
+  verified_seconds_ago: number;
 }
 
 export interface TamperResult {

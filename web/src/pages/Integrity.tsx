@@ -72,6 +72,8 @@ export function Integrity() {
                 </dd>
                 <dt>Last checkpoint</dt>
                 <dd className="mono">{integrity.data.last_checkpoint ?? "–"}</dd>
+                <dt>Verified</dt>
+                <dd>{integrity.data.verified_seconds_ago < 1 ? "just now" : `${integrity.data.verified_seconds_ago} s ago (results are reused for 5 s)`}</dd>
               </dl>
               {integrity.data.problems.length > 0 && (
                 <ul className="small" role="alert">

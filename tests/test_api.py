@@ -152,3 +152,41 @@ def test_experiments_listing(client: TestClient) -> None:
     exps = client.get("/api/experiments").json()
     assert [e["experiment"] for e in exps][:2] == ["e1_reconstruction", "e2_audit_delay"]
     assert all(e["status"] in ("complete", "pending") for e in exps)
+
+
+def test_integrity_detects_an_out_of_band_edit(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    """An edit made directly in the database file shows up once the short verification cache expires."""
+    import sqlite3
+
+    import agentaudit.api.app as app_module
+
+    monkeypatch.setenv("AGENTAUDIT_VAR", str(tmp_path))
+    for k in (
+        "AGENTAUDIT_DB",
+        "AGENTAUDIT_WITNESS",
+        "AGENTAUDIT_SIGNING_KEY",
+        "AGENTAUDIT_API_TOKEN",
+    ):
+        monkeypatch.delenv(k, raising=False)
+    db = build_demo(ROOT, seed=2, n_claims=40)
+    monkeypatch.setattr(app_module, "VERIFY_TTL_S", 0.0)
+    c = TestClient(create_app(ROOT, static_dir=tmp_path / "no-dist"))
+    assert c.get("/api/integrity").json()["valid"]
+    con = sqlite3.connect(db)
+    con.execute("UPDATE events SET name = name || '-edited' WHERE seq = 200")
+    con.commit()
+    con.close()
+    rep = c.get("/api/integrity").json()
+    assert not rep["valid"] and rep["first_bad_seq"] == 200
+
+
+def test_serve_refuses_a_public_host_without_a_token(
+    capsys: pytest.CaptureFixture[str], monkeypatch: pytest.MonkeyPatch
+) -> None:
+    from agentaudit.cli import main
+
+    monkeypatch.delenv("AGENTAUDIT_API_TOKEN", raising=False)
+    assert main(["serve", "--host", "0.0.0.0"]) == 2
+    assert "AGENTAUDIT_API_TOKEN" in capsys.readouterr().err
