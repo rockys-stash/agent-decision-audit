@@ -1,0 +1,7 @@
+experiment: e5_overhead
+kind: overhead
+description: "E5: instrumentation cost (time per decision, storage per decision, verification and replay throughput)"
+base_seed: 20261008
+seeds: 3
+workers: 4
+repeats: 3

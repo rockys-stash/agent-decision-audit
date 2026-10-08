@@ -1,0 +1,7 @@
+experiment: e2_audit_delay
+kind: reconstruction
+description: "E2: reconstruction as the audit happens later (0-180 days), record and live replay"
+base_seed: 20261008
+seeds: 10
+workers: 4
+delays: [0, 7, 30, 90, 180]

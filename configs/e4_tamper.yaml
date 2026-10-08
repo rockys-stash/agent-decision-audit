@@ -1,0 +1,10 @@
+experiment: e4_tamper
+kind: tamper
+description: "E4: tamper evidence of the stored log against eight attacks and four integrity layers"
+base_seed: 20261008
+seeds: 5
+workers: 4
+n_claims: 300
+trials: 100
+checkpoint_every: 100
+anchor_every: 1000

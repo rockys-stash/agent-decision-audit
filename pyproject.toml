@@ -1,0 +1,72 @@
+[project]
+name = "agentaudit"
+version = "1.0.0"
+description = "Tamper-evident decision audit trails for autonomous agents: SDK, replay engine and policy-violation detector"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy>=2.0",
+  "scikit-learn>=1.5",
+  "pydantic>=2.7",
+  "pyyaml>=6.0",
+  "fastapi>=0.115",
+  "uvicorn>=0.30",
+]
+
+[project.scripts]
+agentaudit = "agentaudit.cli:main"
+
+[dependency-groups]
+dev = [
+  "pytest>=8.0",
+  "httpx>=0.27",
+  "ruff>=0.6",
+  "mypy>=1.11",
+  "types-pyyaml>=6.0",
+  "playwright==1.56.0",
+  "matplotlib>=3.9",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/agentaudit"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "N", "SIM", "RUF"]
+ignore = ["N803", "N806"]
+
+[tool.ruff.lint.pycodestyle]
+max-line-length = 115
+
+[tool.ruff.lint.per-file-ignores]
+"src/agentaudit/experiments/report.py" = ["E501"]
+"src/agentaudit/experiments/runner.py" = ["E501"]
+"src/agentaudit/world.py" = ["E501"]
+"src/agentaudit/detect.py" = ["E501"]
+"src/agentaudit/tamper.py" = ["E501"]
+"tests/*" = ["E501"]
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+mypy_path = "src"
+packages = ["agentaudit"]
+plugins = ["pydantic.mypy"]
+warn_return_any = false
+
+[[tool.mypy.overrides]]
+module = ["sklearn.*", "matplotlib.*"]
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["ui: browser tests (need built frontend + chromium)"]
+addopts = "-m 'not ui'"

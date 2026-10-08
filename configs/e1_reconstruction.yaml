@@ -1,0 +1,8 @@
+experiment: e1_reconstruction
+kind: reconstruction
+description: "E1: reconstruction by instrumentation level and decision type (record and live replay, 30-day audit delay), with audit-question answerability"
+base_seed: 20261008
+seeds: 10
+workers: 4
+delays: [30]
+answer_delay: 30
