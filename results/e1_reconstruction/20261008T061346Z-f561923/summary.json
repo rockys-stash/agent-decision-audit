@@ -1,0 +1,3369 @@
+{
+ "rows": [
+  {
+   "mode": "record",
+   "delay": 30.0,
+   "level": 0,
+   "type": "all",
+   "n": 20000,
+   "reproduced": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "attested": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "unverifiable": {
+    "mean": 0.49820000000000003,
+    "lo": 0.48975,
+    "hi": 0.5058,
+    "n": 10
+   },
+   "diverged": {
+    "mean": 0.2197,
+    "lo": 0.21299875000000001,
+    "hi": 0.227,
+    "n": 10
+   },
+   "not_reconstructable": {
+    "mean": 0.28209999999999996,
+    "lo": 0.2777,
+    "hi": 0.28635125,
+    "n": 10
+   },
+   "route_match": {
+    "mean": 0.48424999999999996,
+    "lo": 0.47655000000000003,
+    "hi": 0.49095124999999995,
+    "n": 10
+   },
+   "silent_misreconstruction": {
+    "mean": 0.01395,
+    "lo": 0.0121,
+    "hi": 0.016151249999999992,
+    "n": 10
+   },
+   "fully_reconstructed": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   }
+  },
+  {
+   "mode": "record",
+   "delay": 30.0,
+   "level": 0,
+   "type": "rule",
+   "n": 2905,
+   "reproduced": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "attested": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "unverifiable": {
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 10
+   },
+   "diverged": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "not_reconstructable": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "route_match": {
+    "mean": 0.9992654986522911,
+    "lo": 0.9981940700808625,
+    "hi": 1.0,
+    "n": 10
+   },
+   "silent_misreconstruction": {
+    "mean": 0.0007345013477088949,
+    "lo": 0.0,
+    "hi": 0.0018059299191374664,
+    "n": 10
+   },
+   "fully_reconstructed": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   }
+  },
+  {
+   "mode": "record",
+   "delay": 30.0,
+   "level": 0,
+   "type": "calculation",
+   "n": 7009,
+   "reproduced": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "attested": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "unverifiable": {
+    "mean": 0.9162736572182515,
+    "lo": 0.9114340810320012,
+    "hi": 0.9218738942467486,
+    "n": 10
+   },
+   "diverged": {
+    "mean": 0.024957557466461472,
+    "lo": 0.02179398522545071,
+    "hi": 0.028194467133060674,
+    "n": 10
+   },
+   "not_reconstructable": {
+    "mean": 0.05876878531528688,
+    "lo": 0.05425427052990171,
+    "hi": 0.063280161085634,
+    "n": 10
+   },
+   "route_match": {
+    "mean": 0.8808308040931356,
+    "lo": 0.8742341848512267,
+    "hi": 0.8863923619329239,
+    "n": 10
+   },
+   "silent_misreconstruction": {
+    "mean": 0.03544285312511596,
+    "lo": 0.030084731480849548,
+    "hi": 0.04162104692660881,
+    "n": 10
+   },
+   "fully_reconstructed": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   }
+  },
+  {
+   "mode": "record",
+   "delay": 30.0,
+   "level": 0,
+   "type": "fx",
+   "n": 4345,
+   "reproduced": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "attested": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "unverifiable": {
+    "mean": 0.13393902074705236,
+    "lo": 0.12363580823529664,
+    "hi": 0.1448166419634895,
+    "n": 10
+   },
+   "diverged": {
+    "mean": 0.8083256477640098,
+    "lo": 0.79031920912368,
+    "hi": 0.8255460115703794,
+    "n": 10
+   },
+   "not_reconstructable": {
+    "mean": 0.057735331488937704,
+    "lo": 0.04929612236680216,
+    "hi": 0.06635666873383628,
+    "n": 10
+   },
+   "route_match": {
+    "mean": 0.12726232288401493,
+    "lo": 0.11736819780812685,
+    "hi": 0.13841215320565944,
+    "n": 10
+   },
+   "silent_misreconstruction": {
+    "mean": 0.006676697863037424,
+    "lo": 0.004337689121570989,
+    "hi": 0.009109098147118199,
+    "n": 10
+   },
+   "fully_reconstructed": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   }
+  },
+  {
+   "mode": "record",
+   "delay": 30.0,
+   "level": 0,
+   "type": "model",
+   "n": 447,
+   "reproduced": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "attested": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "unverifiable": {
+    "mean": 0.042725233117330244,
+    "lo": 0.029816180948096568,
+    "hi": 0.055814361211748716,
+    "n": 10
+   },
+   "diverged": {
+    "mean": 0.08254936964411899,
+    "lo": 0.05775541048359717,
+    "hi": 0.11219313724734228,
+    "n": 10
+   },
+   "not_reconstructable": {
+    "mean": 0.8747253972385508,
+    "lo": 0.8463564212646938,
+    "hi": 0.8983715724493005,
+    "n": 10
+   },
+   "route_match": {
+    "mean": 0.042725233117330244,
+    "lo": 0.029816180948096568,
+    "hi": 0.055814361211748716,
+    "n": 10
+   },
+   "silent_misreconstruction": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "fully_reconstructed": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   }
+  },
+  {
+   "mode": "record",
+   "delay": 30.0,
+   "level": 0,
+   "type": "stochastic",
+   "n": 866,
+   "reproduced": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "attested": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "unverifiable": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "diverged": {
+    "mean": 0.6601691135122073,
+    "lo": 0.6234333935692234,
+    "hi": 0.6957468467981985,
+    "n": 10
+   },
+   "not_reconstructable": {
+    "mean": 0.3398308864877927,
+    "lo": 0.30425315320180146,
+    "hi": 0.37656660643077655,
+    "n": 10
+   },
+   "route_match": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "silent_misreconstruction": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "fully_reconstructed": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   }
+  },
+  {
+   "mode": "record",
+   "delay": 30.0,
+   "level": 0,
+   "type": "opaque",
+   "n": 973,
+   "reproduced": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "attested": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "unverifiable": {
+    "mean": 0.03719030143488593,
+    "lo": 0.028552941950110516,
+    "hi": 0.04688856178071515,
+    "n": 10
+   },
+   "diverged": {
+    "mean": 0.0700611211765469,
+    "lo": 0.0520835443503865,
+    "hi": 0.08961294720755182,
+    "n": 10
+   },
+   "not_reconstructable": {
+    "mean": 0.892748577388567,
+    "lo": 0.8710106750202801,
+    "hi": 0.9102935249859919,
+    "n": 10
+   },
+   "route_match": {
+    "mean": 0.03719030143488593,
+    "lo": 0.028552941950110516,
+    "hi": 0.04688856178071515,
+    "n": 10
+   },
+   "silent_misreconstruction": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "fully_reconstructed": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   }
+  },
+  {
+   "mode": "record",
+   "delay": 30.0,
+   "level": 0,
+   "type": "human",
+   "n": 3455,
+   "reproduced": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "attested": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "unverifiable": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "diverged": {
+    "mean": 0.008156682674618543,
+    "lo": 0.004268889872880841,
+    "hi": 0.012593735897049221,
+    "n": 10
+   },
+   "not_reconstructable": {
+    "mean": 0.9918433173253816,
+    "lo": 0.9874062641029507,
+    "hi": 0.9957311101271191,
+    "n": 10
+   },
+   "route_match": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "silent_misreconstruction": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "fully_reconstructed": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   }
+  },
+  {
+   "mode": "record",
+   "delay": 30.0,
+   "level": 1,
+   "type": "all",
+   "n": 20000,
+   "reproduced": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "attested": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "unverifiable": {
+    "mean": 0.39115,
+    "lo": 0.38324749999999996,
+    "hi": 0.40085,
+    "n": 10
+   },
+   "diverged": {
+    "mean": 0.3258,
+    "lo": 0.31664875,
+    "hi": 0.3347,
+    "n": 10
+   },
+   "not_reconstructable": {
+    "mean": 0.28305,
+    "lo": 0.27935,
+    "hi": 0.28710125,
+    "n": 10
+   },
+   "route_match": {
+    "mean": 0.4831,
+    "lo": 0.47549749999999996,
+    "hi": 0.49044999999999994,
+    "n": 10
+   },
+   "silent_misreconstruction": {
+    "mean": 0.00635,
+    "lo": 0.005349999999999999,
+    "hi": 0.0075,
+    "n": 10
+   },
+   "fully_reconstructed": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   }
+  },
+  {
+   "mode": "record",
+   "delay": 30.0,
+   "level": 1,
+   "type": "rule",
+   "n": 2905,
+   "reproduced": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "attested": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "unverifiable": {
+    "mean": 0.9597963103114742,
+    "lo": 0.952151342032313,
+    "hi": 0.9672689117052746,
+    "n": 10
+   },
+   "diverged": {
+    "mean": 0.04020368968852578,
+    "lo": 0.032731088294725486,
+    "hi": 0.047848657967686975,
+    "n": 10
+   },
+   "not_reconstructable": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "route_match": {
+    "mean": 0.9992654986522911,
+    "lo": 0.9981940700808625,
+    "hi": 1.0,
+    "n": 10
+   },
+   "silent_misreconstruction": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "fully_reconstructed": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   }
+  },
+  {
+   "mode": "record",
+   "delay": 30.0,
+   "level": 1,
+   "type": "calculation",
+   "n": 7009,
+   "reproduced": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "attested": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "unverifiable": {
+    "mean": 0.6645756467255965,
+    "lo": 0.6497206610485021,
+    "hi": 0.678150098331641,
+    "n": 10
+   },
+   "diverged": {
+    "mean": 0.27464919088248074,
+    "lo": 0.25801924145280425,
+    "hi": 0.29249278019293284,
+    "n": 10
+   },
+   "not_reconstructable": {
+    "mean": 0.0607751623919228,
+    "lo": 0.05700712686104603,
+    "hi": 0.06457412537772031,
+    "n": 10
+   },
+   "route_match": {
+    "mean": 0.8789574860853853,
+    "lo": 0.8737806464556301,
+    "hi": 0.8843129483677814,
+    "n": 10
+   },
+   "silent_misreconstruction": {
+    "mean": 0.017232265666807016,
+    "lo": 0.014649862522682487,
+    "hi": 0.020085810896786755,
+    "n": 10
+   },
+   "fully_reconstructed": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   }
+  },
+  {
+   "mode": "record",
+   "delay": 30.0,
+   "level": 1,
+   "type": "fx",
+   "n": 4345,
+   "reproduced": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "attested": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "unverifiable": {
+    "mean": 0.08461292280870586,
+    "lo": 0.0754199338850772,
+    "hi": 0.09414402581846416,
+    "n": 10
+   },
+   "diverged": {
+    "mean": 0.8592134912653686,
+    "lo": 0.8460368443509595,
+    "hi": 0.8730353632410153,
+    "n": 10
+   },
+   "not_reconstructable": {
+    "mean": 0.056173585925925626,
+    "lo": 0.048560302080231356,
+    "hi": 0.06272202257747525,
+    "n": 10
+   },
+   "route_match": {
+    "mean": 0.12612418098646644,
+    "lo": 0.11614650833108706,
+    "hi": 0.136723982731488,
+    "n": 10
+   },
+   "silent_misreconstruction": {
+    "mean": 0.0013615152064501168,
+    "lo": 0.0004599256717822384,
+    "hi": 0.002283060907463253,
+    "n": 10
+   },
+   "fully_reconstructed": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   }
+  },
+  {
+   "mode": "record",
+   "delay": 30.0,
+   "level": 1,
+   "type": "model",
+   "n": 447,
+   "reproduced": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "attested": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "unverifiable": {
+    "mean": 0.0017241379310344827,
+    "lo": 0.0,
+    "hi": 0.005172413793103448,
+    "n": 10
+   },
+   "diverged": {
+    "mean": 0.11732824260819255,
+    "lo": 0.0920217130911979,
+    "hi": 0.14861393360324945,
+    "n": 10
+   },
+   "not_reconstructable": {
+    "mean": 0.8809476194607729,
+    "lo": 0.8496810061220099,
+    "hi": 0.9061585967004573,
+    "n": 10
+   },
+   "route_match": {
+    "mean": 0.036503010895108025,
+    "lo": 0.02910057191146598,
+    "hi": 0.04385737209787123,
+    "n": 10
+   },
+   "silent_misreconstruction": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "fully_reconstructed": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   }
+  },
+  {
+   "mode": "record",
+   "delay": 30.0,
+   "level": 1,
+   "type": "stochastic",
+   "n": 866,
+   "reproduced": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "attested": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "unverifiable": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "diverged": {
+    "mean": 0.6563187069607127,
+    "lo": 0.6098244189653734,
+    "hi": 0.7030227915904024,
+    "n": 10
+   },
+   "not_reconstructable": {
+    "mean": 0.34368129303928735,
+    "lo": 0.2969772084095975,
+    "hi": 0.39017558103462646,
+    "n": 10
+   },
+   "route_match": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "silent_misreconstruction": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "fully_reconstructed": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   }
+  },
+  {
+   "mode": "record",
+   "delay": 30.0,
+   "level": 1,
+   "type": "opaque",
+   "n": 973,
+   "reproduced": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "attested": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "unverifiable": {
+    "mean": 0.008123243055024754,
+    "lo": 0.0033707865168539327,
+    "hi": 0.012921454474423976,
+    "n": 10
+   },
+   "diverged": {
+    "mean": 0.08671998243755683,
+    "lo": 0.07338740832870404,
+    "hi": 0.10040585357281803,
+    "n": 10
+   },
+   "not_reconstructable": {
+    "mean": 0.9051567745074184,
+    "lo": 0.8906821766413876,
+    "hi": 0.9199958542088842,
+    "n": 10
+   },
+   "route_match": {
+    "mean": 0.03489035894494775,
+    "lo": 0.02543296538380442,
+    "hi": 0.04517408821782818,
+    "n": 10
+   },
+   "silent_misreconstruction": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "fully_reconstructed": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   }
+  },
+  {
+   "mode": "record",
+   "delay": 30.0,
+   "level": 1,
+   "type": "human",
+   "n": 3455,
+   "reproduced": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "attested": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "unverifiable": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "diverged": {
+    "mean": 0.00873892553854152,
+    "lo": 0.0049384769079255,
+    "hi": 0.013078633804980842,
+    "n": 10
+   },
+   "not_reconstructable": {
+    "mean": 0.9912610744614586,
+    "lo": 0.9869213661950191,
+    "hi": 0.9950615230920746,
+    "n": 10
+   },
+   "route_match": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "silent_misreconstruction": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "fully_reconstructed": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   }
+  },
+  {
+   "mode": "record",
+   "delay": 30.0,
+   "level": 2,
+   "type": "all",
+   "n": 20000,
+   "reproduced": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "attested": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "unverifiable": {
+    "mean": 0.7574,
+    "lo": 0.74534625,
+    "hi": 0.76895,
+    "n": 10
+   },
+   "diverged": {
+    "mean": 0.2426,
+    "lo": 0.23105000000000003,
+    "hi": 0.25465375,
+    "n": 10
+   },
+   "not_reconstructable": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "route_match": {
+    "mean": 0.8808999999999999,
+    "lo": 0.8741000000000001,
+    "hi": 0.88695,
+    "n": 10
+   },
+   "silent_misreconstruction": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "fully_reconstructed": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   }
+  },
+  {
+   "mode": "record",
+   "delay": 30.0,
+   "level": 2,
+   "type": "rule",
+   "n": 2905,
+   "reproduced": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "attested": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "unverifiable": {
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 10
+   },
+   "diverged": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "not_reconstructable": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "route_match": {
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 10
+   },
+   "silent_misreconstruction": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "fully_reconstructed": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   }
+  },
+  {
+   "mode": "record",
+   "delay": 30.0,
+   "level": 2,
+   "type": "calculation",
+   "n": 7009,
+   "reproduced": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "attested": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "unverifiable": {
+    "mean": 0.6991710781166127,
+    "lo": 0.6798687452594445,
+    "hi": 0.716022035342756,
+    "n": 10
+   },
+   "diverged": {
+    "mean": 0.30082892188338717,
+    "lo": 0.28397796465724406,
+    "hi": 0.3201312547405556,
+    "n": 10
+   },
+   "not_reconstructable": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "route_match": {
+    "mean": 0.9095400090634416,
+    "lo": 0.9031761994652016,
+    "hi": 0.915191722737287,
+    "n": 10
+   },
+   "silent_misreconstruction": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "fully_reconstructed": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   }
+  },
+  {
+   "mode": "record",
+   "delay": 30.0,
+   "level": 2,
+   "type": "fx",
+   "n": 4345,
+   "reproduced": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "attested": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "unverifiable": {
+    "mean": 0.7013318330795071,
+    "lo": 0.6784000468617214,
+    "hi": 0.7229290437125171,
+    "n": 10
+   },
+   "diverged": {
+    "mean": 0.29866816692049303,
+    "lo": 0.27707095628748296,
+    "hi": 0.3215999531382787,
+    "n": 10
+   },
+   "not_reconstructable": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "route_match": {
+    "mean": 0.9080513352499449,
+    "lo": 0.8962265106715634,
+    "hi": 0.9190255600799934,
+    "n": 10
+   },
+   "silent_misreconstruction": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "fully_reconstructed": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   }
+  },
+  {
+   "mode": "record",
+   "delay": 30.0,
+   "level": 2,
+   "type": "model",
+   "n": 447,
+   "reproduced": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "attested": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "unverifiable": {
+    "mean": 0.7203162407789951,
+    "lo": 0.6916356024784686,
+    "hi": 0.7479771956855301,
+    "n": 10
+   },
+   "diverged": {
+    "mean": 0.2796837592210047,
+    "lo": 0.25202280431446983,
+    "hi": 0.30836439752153133,
+    "n": 10
+   },
+   "not_reconstructable": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "route_match": {
+    "mean": 0.7912439316105578,
+    "lo": 0.7649264626703004,
+    "hi": 0.8170737767306117,
+    "n": 10
+   },
+   "silent_misreconstruction": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "fully_reconstructed": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   }
+  },
+  {
+   "mode": "record",
+   "delay": 30.0,
+   "level": 2,
+   "type": "stochastic",
+   "n": 866,
+   "reproduced": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "attested": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "unverifiable": {
+    "mean": 0.03884412705757469,
+    "lo": 0.02644594171358461,
+    "hi": 0.04921496449269085,
+    "n": 10
+   },
+   "diverged": {
+    "mean": 0.9611558729424253,
+    "lo": 0.9507850355073092,
+    "hi": 0.9735540582864154,
+    "n": 10
+   },
+   "not_reconstructable": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "route_match": {
+    "mean": 0.03884412705757469,
+    "lo": 0.02644594171358461,
+    "hi": 0.04921496449269085,
+    "n": 10
+   },
+   "silent_misreconstruction": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "fully_reconstructed": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   }
+  },
+  {
+   "mode": "record",
+   "delay": 30.0,
+   "level": 2,
+   "type": "opaque",
+   "n": 973,
+   "reproduced": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "attested": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "unverifiable": {
+    "mean": 0.7867824109882323,
+    "lo": 0.7627711853699286,
+    "hi": 0.8091414860176432,
+    "n": 10
+   },
+   "diverged": {
+    "mean": 0.21321758901176766,
+    "lo": 0.19085851398235662,
+    "hi": 0.23722881463007134,
+    "n": 10
+   },
+   "not_reconstructable": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "route_match": {
+    "mean": 0.8566430121649186,
+    "lo": 0.8370622213582137,
+    "hi": 0.8756085306870827,
+    "n": 10
+   },
+   "silent_misreconstruction": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "fully_reconstructed": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   }
+  },
+  {
+   "mode": "record",
+   "delay": 30.0,
+   "level": 2,
+   "type": "human",
+   "n": 3455,
+   "reproduced": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "attested": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "unverifiable": {
+    "mean": 0.9180701296870378,
+    "lo": 0.9117582208535154,
+    "hi": 0.9243872352332566,
+    "n": 10
+   },
+   "diverged": {
+    "mean": 0.08192987031296209,
+    "lo": 0.07561276476674329,
+    "hi": 0.08824177914648437,
+    "n": 10
+   },
+   "not_reconstructable": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "route_match": {
+    "mean": 0.9180701296870378,
+    "lo": 0.9117582208535154,
+    "hi": 0.9243872352332566,
+    "n": 10
+   },
+   "silent_misreconstruction": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "fully_reconstructed": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   }
+  },
+  {
+   "mode": "record",
+   "delay": 30.0,
+   "level": 3,
+   "type": "all",
+   "n": 20000,
+   "reproduced": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "attested": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "unverifiable": {
+    "mean": 0.14525000000000002,
+    "lo": 0.14035,
+    "hi": 0.15084999999999998,
+    "n": 10
+   },
+   "diverged": {
+    "mean": 0.8547499999999999,
+    "lo": 0.8491500000000001,
+    "hi": 0.85965,
+    "n": 10
+   },
+   "not_reconstructable": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "route_match": {
+    "mean": 0.87965,
+    "lo": 0.87479875,
+    "hi": 0.8843,
+    "n": 10
+   },
+   "silent_misreconstruction": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "fully_reconstructed": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   }
+  },
+  {
+   "mode": "record",
+   "delay": 30.0,
+   "level": 3,
+   "type": "rule",
+   "n": 2905,
+   "reproduced": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "attested": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "unverifiable": {
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 10
+   },
+   "diverged": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "not_reconstructable": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "route_match": {
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 10
+   },
+   "silent_misreconstruction": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "fully_reconstructed": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   }
+  },
+  {
+   "mode": "record",
+   "delay": 30.0,
+   "level": 3,
+   "type": "calculation",
+   "n": 7009,
+   "reproduced": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "attested": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "unverifiable": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "diverged": {
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 10
+   },
+   "not_reconstructable": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "route_match": {
+    "mean": 0.907667733734244,
+    "lo": 0.9000757913574651,
+    "hi": 0.914134582037724,
+    "n": 10
+   },
+   "silent_misreconstruction": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "fully_reconstructed": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   }
+  },
+  {
+   "mode": "record",
+   "delay": 30.0,
+   "level": 3,
+   "type": "fx",
+   "n": 4345,
+   "reproduced": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "attested": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "unverifiable": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "diverged": {
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 10
+   },
+   "not_reconstructable": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "route_match": {
+    "mean": 0.9094364069505465,
+    "lo": 0.8987455957235105,
+    "hi": 0.9193047606707797,
+    "n": 10
+   },
+   "silent_misreconstruction": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "fully_reconstructed": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   }
+  },
+  {
+   "mode": "record",
+   "delay": 30.0,
+   "level": 3,
+   "type": "model",
+   "n": 447,
+   "reproduced": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "attested": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "unverifiable": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "diverged": {
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 10
+   },
+   "not_reconstructable": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "route_match": {
+    "mean": 0.77524710888371,
+    "lo": 0.7390287070269459,
+    "hi": 0.8066125811390739,
+    "n": 10
+   },
+   "silent_misreconstruction": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "fully_reconstructed": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   }
+  },
+  {
+   "mode": "record",
+   "delay": 30.0,
+   "level": 3,
+   "type": "stochastic",
+   "n": 866,
+   "reproduced": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "attested": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "unverifiable": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "diverged": {
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 10
+   },
+   "not_reconstructable": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "route_match": {
+    "mean": 0.03969004389901171,
+    "lo": 0.026174279007974813,
+    "hi": 0.05246746071921795,
+    "n": 10
+   },
+   "silent_misreconstruction": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "fully_reconstructed": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   }
+  },
+  {
+   "mode": "record",
+   "delay": 30.0,
+   "level": 3,
+   "type": "opaque",
+   "n": 973,
+   "reproduced": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "attested": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "unverifiable": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "diverged": {
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 10
+   },
+   "not_reconstructable": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "route_match": {
+    "mean": 0.8594663173151706,
+    "lo": 0.839959866493076,
+    "hi": 0.877762586527617,
+    "n": 10
+   },
+   "silent_misreconstruction": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "fully_reconstructed": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   }
+  },
+  {
+   "mode": "record",
+   "delay": 30.0,
+   "level": 3,
+   "type": "human",
+   "n": 3455,
+   "reproduced": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "attested": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "unverifiable": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "diverged": {
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 10
+   },
+   "not_reconstructable": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "route_match": {
+    "mean": 0.9137057549426961,
+    "lo": 0.9052767355162984,
+    "hi": 0.9215892801437083,
+    "n": 10
+   },
+   "silent_misreconstruction": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "fully_reconstructed": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   }
+  },
+  {
+   "mode": "record",
+   "delay": 30.0,
+   "level": 4,
+   "type": "all",
+   "n": 20000,
+   "reproduced": {
+    "mean": 0.66795,
+    "lo": 0.66144875,
+    "hi": 0.675,
+    "n": 10
+   },
+   "attested": {
+    "mean": 0.33205000000000007,
+    "lo": 0.325,
+    "hi": 0.33855125,
+    "n": 10
+   },
+   "unverifiable": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "diverged": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "not_reconstructable": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "route_match": {
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 10
+   },
+   "silent_misreconstruction": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "fully_reconstructed": {
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 10
+   }
+  },
+  {
+   "mode": "record",
+   "delay": 30.0,
+   "level": 4,
+   "type": "rule",
+   "n": 2905,
+   "reproduced": {
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 10
+   },
+   "attested": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "unverifiable": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "diverged": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "not_reconstructable": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "route_match": {
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 10
+   },
+   "silent_misreconstruction": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "fully_reconstructed": {
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 10
+   }
+  },
+  {
+   "mode": "record",
+   "delay": 30.0,
+   "level": 4,
+   "type": "calculation",
+   "n": 7009,
+   "reproduced": {
+    "mean": 0.9219277100782406,
+    "lo": 0.9171248487697394,
+    "hi": 0.927572824362785,
+    "n": 10
+   },
+   "attested": {
+    "mean": 0.0780722899217594,
+    "lo": 0.07242717563721493,
+    "hi": 0.08287515123026068,
+    "n": 10
+   },
+   "unverifiable": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "diverged": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "not_reconstructable": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "route_match": {
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 10
+   },
+   "silent_misreconstruction": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "fully_reconstructed": {
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 10
+   }
+  },
+  {
+   "mode": "record",
+   "delay": 30.0,
+   "level": 4,
+   "type": "fx",
+   "n": 4345,
+   "reproduced": {
+    "mean": 0.915073672558872,
+    "lo": 0.9072091218628391,
+    "hi": 0.9211420946891363,
+    "n": 10
+   },
+   "attested": {
+    "mean": 0.08492632744112802,
+    "lo": 0.0788579053108636,
+    "hi": 0.09279087813716094,
+    "n": 10
+   },
+   "unverifiable": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "diverged": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "not_reconstructable": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "route_match": {
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 10
+   },
+   "silent_misreconstruction": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "fully_reconstructed": {
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 10
+   }
+  },
+  {
+   "mode": "record",
+   "delay": 30.0,
+   "level": 4,
+   "type": "model",
+   "n": 447,
+   "reproduced": {
+    "mean": 0.03425329918341438,
+    "lo": 0.019420471127788202,
+    "hi": 0.05006495121332678,
+    "n": 10
+   },
+   "attested": {
+    "mean": 0.9657467008165856,
+    "lo": 0.9499350487866732,
+    "hi": 0.9805795288722118,
+    "n": 10
+   },
+   "unverifiable": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "diverged": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "not_reconstructable": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "route_match": {
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 10
+   },
+   "silent_misreconstruction": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "fully_reconstructed": {
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 10
+   }
+  },
+  {
+   "mode": "record",
+   "delay": 30.0,
+   "level": 4,
+   "type": "stochastic",
+   "n": 866,
+   "reproduced": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "attested": {
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 10
+   },
+   "unverifiable": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "diverged": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "not_reconstructable": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "route_match": {
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 10
+   },
+   "silent_misreconstruction": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "fully_reconstructed": {
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 10
+   }
+  },
+  {
+   "mode": "record",
+   "delay": 30.0,
+   "level": 4,
+   "type": "opaque",
+   "n": 973,
+   "reproduced": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "attested": {
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 10
+   },
+   "unverifiable": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "diverged": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "not_reconstructable": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "route_match": {
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 10
+   },
+   "silent_misreconstruction": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "fully_reconstructed": {
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 10
+   }
+  },
+  {
+   "mode": "record",
+   "delay": 30.0,
+   "level": 4,
+   "type": "human",
+   "n": 3455,
+   "reproduced": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "attested": {
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 10
+   },
+   "unverifiable": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "diverged": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "not_reconstructable": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "route_match": {
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 10
+   },
+   "silent_misreconstruction": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "fully_reconstructed": {
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 10
+   }
+  },
+  {
+   "mode": "live",
+   "delay": 30.0,
+   "level": 4,
+   "type": "all",
+   "n": 20000,
+   "reproduced": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "attested": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "unverifiable": {
+    "mean": 0.09425,
+    "lo": 0.08964875,
+    "hi": 0.09955,
+    "n": 10
+   },
+   "diverged": {
+    "mean": 0.6211,
+    "lo": 0.61444875,
+    "hi": 0.6273500000000001,
+    "n": 10
+   },
+   "not_reconstructable": {
+    "mean": 0.28464999999999996,
+    "lo": 0.27839875,
+    "hi": 0.2913,
+    "n": 10
+   },
+   "route_match": {
+    "mean": 0.48179999999999995,
+    "lo": 0.47315000000000007,
+    "hi": 0.4901,
+    "n": 10
+   },
+   "silent_misreconstruction": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "fully_reconstructed": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   }
+  },
+  {
+   "mode": "live",
+   "delay": 30.0,
+   "level": 4,
+   "type": "rule",
+   "n": 2905,
+   "reproduced": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "attested": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "unverifiable": {
+    "mean": 0.6481452116639613,
+    "lo": 0.6340059601628748,
+    "hi": 0.6636232676832521,
+    "n": 10
+   },
+   "diverged": {
+    "mean": 0.3518547883360386,
+    "lo": 0.33637673231674786,
+    "hi": 0.36599403983712514,
+    "n": 10
+   },
+   "not_reconstructable": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "route_match": {
+    "mean": 0.9992654986522911,
+    "lo": 0.9981940700808625,
+    "hi": 1.0,
+    "n": 10
+   },
+   "silent_misreconstruction": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "fully_reconstructed": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   }
+  },
+  {
+   "mode": "live",
+   "delay": 30.0,
+   "level": 4,
+   "type": "calculation",
+   "n": 7009,
+   "reproduced": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "attested": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "unverifiable": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "diverged": {
+    "mean": 0.9361353678227639,
+    "lo": 0.9309256659388886,
+    "hi": 0.9417122891058224,
+    "n": 10
+   },
+   "not_reconstructable": {
+    "mean": 0.06386463217723606,
+    "lo": 0.05828771089417786,
+    "hi": 0.06907433406111145,
+    "n": 10
+   },
+   "route_match": {
+    "mean": 0.8771659123078326,
+    "lo": 0.8696537097230334,
+    "hi": 0.884200769121272,
+    "n": 10
+   },
+   "silent_misreconstruction": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "fully_reconstructed": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   }
+  },
+  {
+   "mode": "live",
+   "delay": 30.0,
+   "level": 4,
+   "type": "fx",
+   "n": 4345,
+   "reproduced": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "attested": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "unverifiable": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "diverged": {
+    "mean": 0.9351055570166121,
+    "lo": 0.9291132907836799,
+    "hi": 0.9413918837062424,
+    "n": 10
+   },
+   "not_reconstructable": {
+    "mean": 0.06489444298338784,
+    "lo": 0.05860811629375759,
+    "hi": 0.07088670921632005,
+    "n": 10
+   },
+   "route_match": {
+    "mean": 0.12241956151664028,
+    "lo": 0.11138214661790163,
+    "hi": 0.1343967551652725,
+    "n": 10
+   },
+   "silent_misreconstruction": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "fully_reconstructed": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   }
+  },
+  {
+   "mode": "live",
+   "delay": 30.0,
+   "level": 4,
+   "type": "model",
+   "n": 447,
+   "reproduced": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "attested": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "unverifiable": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "diverged": {
+    "mean": 0.12431746824022431,
+    "lo": 0.09665160450120941,
+    "hi": 0.15608256911647364,
+    "n": 10
+   },
+   "not_reconstructable": {
+    "mean": 0.8756825317597757,
+    "lo": 0.8439174308835264,
+    "hi": 0.9033483954987906,
+    "n": 10
+   },
+   "route_match": {
+    "mean": 0.04028620872708634,
+    "lo": 0.030723983087866166,
+    "hi": 0.05000875331564986,
+    "n": 10
+   },
+   "silent_misreconstruction": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "fully_reconstructed": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   }
+  },
+  {
+   "mode": "live",
+   "delay": 30.0,
+   "level": 4,
+   "type": "stochastic",
+   "n": 866,
+   "reproduced": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "attested": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "unverifiable": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "diverged": {
+    "mean": 0.6708724517571707,
+    "lo": 0.6365124757687962,
+    "hi": 0.7027988188965156,
+    "n": 10
+   },
+   "not_reconstructable": {
+    "mean": 0.32912754824282925,
+    "lo": 0.29720118110348437,
+    "hi": 0.36348752423120384,
+    "n": 10
+   },
+   "route_match": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "silent_misreconstruction": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "fully_reconstructed": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   }
+  },
+  {
+   "mode": "live",
+   "delay": 30.0,
+   "level": 4,
+   "type": "opaque",
+   "n": 973,
+   "reproduced": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "attested": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "unverifiable": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "diverged": {
+    "mean": 0.112315301913373,
+    "lo": 0.09688402952318206,
+    "hi": 0.12884614760897256,
+    "n": 10
+   },
+   "not_reconstructable": {
+    "mean": 0.8876846980866271,
+    "lo": 0.8711538523910274,
+    "hi": 0.9031159704768179,
+    "n": 10
+   },
+   "route_match": {
+    "mean": 0.03490157389289512,
+    "lo": 0.025509470670826935,
+    "hi": 0.047589138960851006,
+    "n": 10
+   },
+   "silent_misreconstruction": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "fully_reconstructed": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   }
+  },
+  {
+   "mode": "live",
+   "delay": 30.0,
+   "level": 4,
+   "type": "human",
+   "n": 3455,
+   "reproduced": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "attested": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "unverifiable": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "diverged": {
+    "mean": 0.008159171555883726,
+    "lo": 0.004531738506683881,
+    "hi": 0.012168872696779597,
+    "n": 10
+   },
+   "not_reconstructable": {
+    "mean": 0.9918408284441164,
+    "lo": 0.9878311273032205,
+    "hi": 0.9954682614933161,
+    "n": 10
+   },
+   "route_match": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "silent_misreconstruction": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   },
+   "fully_reconstructed": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 10
+   }
+  }
+ ],
+ "answers": [
+  {
+   "level": 0,
+   "question": "input",
+   "text": "What exactly was the agent deciding on?",
+   "correct": {
+    "mean": 0.7012500000000002,
+    "lo": 0.6980000000000001,
+    "hi": 0.70455,
+    "n": 10
+   },
+   "record": 0.0,
+   "replay_correct": 0.70125,
+   "replay_wrong": 0.01665,
+   "unanswerable": 0.2821,
+   "record_wrong": 0.0
+  },
+  {
+   "level": 0,
+   "question": "sources",
+   "text": "Which sources and services did it consult, and what did they return?",
+   "correct": {
+    "mean": 0.13779999999999998,
+    "lo": 0.13215000000000002,
+    "hi": 0.144,
+    "n": 10
+   },
+   "record": 0.0,
+   "replay_correct": 0.1378,
+   "replay_wrong": 0.5801,
+   "unanswerable": 0.2821,
+   "record_wrong": 0.0
+  },
+  {
+   "level": 0,
+   "question": "computation",
+   "text": "How was the amount computed?",
+   "correct": {
+    "mean": 0.488,
+    "lo": 0.48074875,
+    "hi": 0.49405,
+    "n": 10
+   },
+   "record": 0.0,
+   "replay_correct": 0.488,
+   "replay_wrong": 0.2299,
+   "unanswerable": 0.2821,
+   "record_wrong": 0.0
+  },
+  {
+   "level": 0,
+   "question": "rules",
+   "text": "Which policy rules were evaluated, with what result?",
+   "correct": {
+    "mean": 0.6655000000000001,
+    "lo": 0.65829875,
+    "hi": 0.67225125,
+    "n": 10
+   },
+   "record": 0.0,
+   "replay_correct": 0.6655,
+   "replay_wrong": 0.0524,
+   "unanswerable": 0.2821,
+   "record_wrong": 0.0
+  },
+  {
+   "level": 0,
+   "question": "alternatives",
+   "text": "Which alternatives were considered, and which was chosen?",
+   "correct": {
+    "mean": 0.17715,
+    "lo": 0.1702,
+    "hi": 0.18605124999999997,
+    "n": 10
+   },
+   "record": 0.0,
+   "replay_correct": 0.17715,
+   "replay_wrong": 0.54075,
+   "unanswerable": 0.2821,
+   "record_wrong": 0.0
+  },
+  {
+   "level": 0,
+   "question": "confidence",
+   "text": "How confident was the agent?",
+   "correct": {
+    "mean": 0.24335,
+    "lo": 0.23619875,
+    "hi": 0.25000125,
+    "n": 10
+   },
+   "record": 0.0,
+   "replay_correct": 0.24335,
+   "replay_wrong": 0.47455,
+   "unanswerable": 0.2821,
+   "record_wrong": 0.0
+  },
+  {
+   "level": 0,
+   "question": "versions",
+   "text": "Which agent and model versions made the decision?",
+   "correct": {
+    "mean": 0.09955,
+    "lo": 0.09540000000000001,
+    "hi": 0.10435000000000001,
+    "n": 10
+   },
+   "record": 0.0,
+   "replay_correct": 0.09955,
+   "replay_wrong": 0.61835,
+   "unanswerable": 0.2821,
+   "record_wrong": 0.0
+  },
+  {
+   "level": 0,
+   "question": "human",
+   "text": "Was a person involved, and who?",
+   "correct": {
+    "mean": 0.68375,
+    "lo": 0.6777,
+    "hi": 0.69005125,
+    "n": 10
+   },
+   "record": 0.0,
+   "replay_correct": 0.68375,
+   "replay_wrong": 0.03415,
+   "unanswerable": 0.2821,
+   "record_wrong": 0.0
+  },
+  {
+   "level": 1,
+   "question": "input",
+   "text": "What exactly was the agent deciding on?",
+   "correct": {
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 10
+   },
+   "record": 1.0,
+   "replay_correct": 0.0,
+   "replay_wrong": 0.0,
+   "unanswerable": 0.0,
+   "record_wrong": 0.0
+  },
+  {
+   "level": 1,
+   "question": "sources",
+   "text": "Which sources and services did it consult, and what did they return?",
+   "correct": {
+    "mean": 0.13779999999999998,
+    "lo": 0.13215000000000002,
+    "hi": 0.144,
+    "n": 10
+   },
+   "record": 0.0,
+   "replay_correct": 0.1378,
+   "replay_wrong": 0.57915,
+   "unanswerable": 0.28305,
+   "record_wrong": 0.0
+  },
+  {
+   "level": 1,
+   "question": "computation",
+   "text": "How was the amount computed?",
+   "correct": {
+    "mean": 0.48725000000000007,
+    "lo": 0.48004874999999997,
+    "hi": 0.49415,
+    "n": 10
+   },
+   "record": 0.0,
+   "replay_correct": 0.48725,
+   "replay_wrong": 0.2297,
+   "unanswerable": 0.28305,
+   "record_wrong": 0.0
+  },
+  {
+   "level": 1,
+   "question": "rules",
+   "text": "Which policy rules were evaluated, with what result?",
+   "correct": {
+    "mean": 0.66425,
+    "lo": 0.6564987500000001,
+    "hi": 0.67150125,
+    "n": 10
+   },
+   "record": 0.0,
+   "replay_correct": 0.66425,
+   "replay_wrong": 0.0527,
+   "unanswerable": 0.28305,
+   "record_wrong": 0.0
+  },
+  {
+   "level": 1,
+   "question": "alternatives",
+   "text": "Which alternatives were considered, and which was chosen?",
+   "correct": {
+    "mean": 0.17744999999999997,
+    "lo": 0.17074999999999999,
+    "hi": 0.18585000000000002,
+    "n": 10
+   },
+   "record": 0.0,
+   "replay_correct": 0.17745,
+   "replay_wrong": 0.5395,
+   "unanswerable": 0.28305,
+   "record_wrong": 0.0
+  },
+  {
+   "level": 1,
+   "question": "confidence",
+   "text": "How confident was the agent?",
+   "correct": {
+    "mean": 0.24305000000000004,
+    "lo": 0.23599875000000003,
+    "hi": 0.25005,
+    "n": 10
+   },
+   "record": 0.0,
+   "replay_correct": 0.24305,
+   "replay_wrong": 0.4739,
+   "unanswerable": 0.28305,
+   "record_wrong": 0.0
+  },
+  {
+   "level": 1,
+   "question": "versions",
+   "text": "Which agent and model versions made the decision?",
+   "correct": {
+    "mean": 0.09955,
+    "lo": 0.09540000000000001,
+    "hi": 0.10435000000000001,
+    "n": 10
+   },
+   "record": 0.0,
+   "replay_correct": 0.09955,
+   "replay_wrong": 0.6174,
+   "unanswerable": 0.28305,
+   "record_wrong": 0.0
+  },
+  {
+   "level": 1,
+   "question": "human",
+   "text": "Was a person involved, and who?",
+   "correct": {
+    "mean": 0.68285,
+    "lo": 0.67619875,
+    "hi": 0.6899,
+    "n": 10
+   },
+   "record": 0.0,
+   "replay_correct": 0.68285,
+   "replay_wrong": 0.0341,
+   "unanswerable": 0.28305,
+   "record_wrong": 0.0
+  },
+  {
+   "level": 2,
+   "question": "input",
+   "text": "What exactly was the agent deciding on?",
+   "correct": {
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 10
+   },
+   "record": 1.0,
+   "replay_correct": 0.0,
+   "replay_wrong": 0.0,
+   "unanswerable": 0.0,
+   "record_wrong": 0.0
+  },
+  {
+   "level": 2,
+   "question": "sources",
+   "text": "Which sources and services did it consult, and what did they return?",
+   "correct": {
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 10
+   },
+   "record": 1.0,
+   "replay_correct": 0.0,
+   "replay_wrong": 0.0,
+   "unanswerable": 0.0,
+   "record_wrong": 0.0
+  },
+  {
+   "level": 2,
+   "question": "computation",
+   "text": "How was the amount computed?",
+   "correct": {
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 10
+   },
+   "record": 0.0,
+   "replay_correct": 1.0,
+   "replay_wrong": 0.0,
+   "unanswerable": 0.0,
+   "record_wrong": 0.0
+  },
+  {
+   "level": 2,
+   "question": "rules",
+   "text": "Which policy rules were evaluated, with what result?",
+   "correct": {
+    "mean": 0.8808999999999999,
+    "lo": 0.8741000000000001,
+    "hi": 0.88695,
+    "n": 10
+   },
+   "record": 0.0,
+   "replay_correct": 0.8809,
+   "replay_wrong": 0.1191,
+   "unanswerable": 0.0,
+   "record_wrong": 0.0
+  },
+  {
+   "level": 2,
+   "question": "alternatives",
+   "text": "Which alternatives were considered, and which was chosen?",
+   "correct": {
+    "mean": 0.26890000000000003,
+    "lo": 0.26080000000000003,
+    "hi": 0.27830249999999995,
+    "n": 10
+   },
+   "record": 0.0,
+   "replay_correct": 0.2689,
+   "replay_wrong": 0.7311,
+   "unanswerable": 0.0,
+   "record_wrong": 0.0
+  },
+  {
+   "level": 2,
+   "question": "confidence",
+   "text": "How confident was the agent?",
+   "correct": {
+    "mean": 0.28085,
+    "lo": 0.27089874999999997,
+    "hi": 0.2899,
+    "n": 10
+   },
+   "record": 0.0,
+   "replay_correct": 0.28085,
+   "replay_wrong": 0.71915,
+   "unanswerable": 0.0,
+   "record_wrong": 0.0
+  },
+  {
+   "level": 2,
+   "question": "versions",
+   "text": "Which agent and model versions made the decision?",
+   "correct": {
+    "mean": 0.09955,
+    "lo": 0.09540000000000001,
+    "hi": 0.10435000000000001,
+    "n": 10
+   },
+   "record": 0.0,
+   "replay_correct": 0.09955,
+   "replay_wrong": 0.90045,
+   "unanswerable": 0.0,
+   "record_wrong": 0.0
+  },
+  {
+   "level": 2,
+   "question": "human",
+   "text": "Was a person involved, and who?",
+   "correct": {
+    "mean": 0.7206500000000001,
+    "lo": 0.7134,
+    "hi": 0.7281512499999999,
+    "n": 10
+   },
+   "record": 0.0,
+   "replay_correct": 0.72065,
+   "replay_wrong": 0.27935,
+   "unanswerable": 0.0,
+   "record_wrong": 0.0
+  },
+  {
+   "level": 3,
+   "question": "input",
+   "text": "What exactly was the agent deciding on?",
+   "correct": {
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 10
+   },
+   "record": 1.0,
+   "replay_correct": 0.0,
+   "replay_wrong": 0.0,
+   "unanswerable": 0.0,
+   "record_wrong": 0.0
+  },
+  {
+   "level": 3,
+   "question": "sources",
+   "text": "Which sources and services did it consult, and what did they return?",
+   "correct": {
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 10
+   },
+   "record": 1.0,
+   "replay_correct": 0.0,
+   "replay_wrong": 0.0,
+   "unanswerable": 0.0,
+   "record_wrong": 0.0
+  },
+  {
+   "level": 3,
+   "question": "computation",
+   "text": "How was the amount computed?",
+   "correct": {
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 10
+   },
+   "record": 1.0,
+   "replay_correct": 0.0,
+   "replay_wrong": 0.0,
+   "unanswerable": 0.0,
+   "record_wrong": 0.0
+  },
+  {
+   "level": 3,
+   "question": "rules",
+   "text": "Which policy rules were evaluated, with what result?",
+   "correct": {
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 10
+   },
+   "record": 1.0,
+   "replay_correct": 0.0,
+   "replay_wrong": 0.0,
+   "unanswerable": 0.0,
+   "record_wrong": 0.0
+  },
+  {
+   "level": 3,
+   "question": "alternatives",
+   "text": "Which alternatives were considered, and which was chosen?",
+   "correct": {
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 10
+   },
+   "record": 1.0,
+   "replay_correct": 0.0,
+   "replay_wrong": 0.0,
+   "unanswerable": 0.0,
+   "record_wrong": 0.0
+  },
+  {
+   "level": 3,
+   "question": "confidence",
+   "text": "How confident was the agent?",
+   "correct": {
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 10
+   },
+   "record": 1.0,
+   "replay_correct": 0.0,
+   "replay_wrong": 0.0,
+   "unanswerable": 0.0,
+   "record_wrong": 0.0
+  },
+  {
+   "level": 3,
+   "question": "versions",
+   "text": "Which agent and model versions made the decision?",
+   "correct": {
+    "mean": 0.09955,
+    "lo": 0.09540000000000001,
+    "hi": 0.10435000000000001,
+    "n": 10
+   },
+   "record": 0.0,
+   "replay_correct": 0.09955,
+   "replay_wrong": 0.90045,
+   "unanswerable": 0.0,
+   "record_wrong": 0.0
+  },
+  {
+   "level": 3,
+   "question": "human",
+   "text": "Was a person involved, and who?",
+   "correct": {
+    "mean": 0.7206500000000001,
+    "lo": 0.7134,
+    "hi": 0.7281512499999999,
+    "n": 10
+   },
+   "record": 0.0,
+   "replay_correct": 0.72065,
+   "replay_wrong": 0.27935,
+   "unanswerable": 0.0,
+   "record_wrong": 0.0
+  },
+  {
+   "level": 4,
+   "question": "input",
+   "text": "What exactly was the agent deciding on?",
+   "correct": {
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 10
+   },
+   "record": 1.0,
+   "replay_correct": 0.0,
+   "replay_wrong": 0.0,
+   "unanswerable": 0.0,
+   "record_wrong": 0.0
+  },
+  {
+   "level": 4,
+   "question": "sources",
+   "text": "Which sources and services did it consult, and what did they return?",
+   "correct": {
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 10
+   },
+   "record": 1.0,
+   "replay_correct": 0.0,
+   "replay_wrong": 0.0,
+   "unanswerable": 0.0,
+   "record_wrong": 0.0
+  },
+  {
+   "level": 4,
+   "question": "computation",
+   "text": "How was the amount computed?",
+   "correct": {
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 10
+   },
+   "record": 1.0,
+   "replay_correct": 0.0,
+   "replay_wrong": 0.0,
+   "unanswerable": 0.0,
+   "record_wrong": 0.0
+  },
+  {
+   "level": 4,
+   "question": "rules",
+   "text": "Which policy rules were evaluated, with what result?",
+   "correct": {
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 10
+   },
+   "record": 1.0,
+   "replay_correct": 0.0,
+   "replay_wrong": 0.0,
+   "unanswerable": 0.0,
+   "record_wrong": 0.0
+  },
+  {
+   "level": 4,
+   "question": "alternatives",
+   "text": "Which alternatives were considered, and which was chosen?",
+   "correct": {
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 10
+   },
+   "record": 1.0,
+   "replay_correct": 0.0,
+   "replay_wrong": 0.0,
+   "unanswerable": 0.0,
+   "record_wrong": 0.0
+  },
+  {
+   "level": 4,
+   "question": "confidence",
+   "text": "How confident was the agent?",
+   "correct": {
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 10
+   },
+   "record": 1.0,
+   "replay_correct": 0.0,
+   "replay_wrong": 0.0,
+   "unanswerable": 0.0,
+   "record_wrong": 0.0
+  },
+  {
+   "level": 4,
+   "question": "versions",
+   "text": "Which agent and model versions made the decision?",
+   "correct": {
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 10
+   },
+   "record": 1.0,
+   "replay_correct": 0.0,
+   "replay_wrong": 0.0,
+   "unanswerable": 0.0,
+   "record_wrong": 0.0
+  },
+  {
+   "level": 4,
+   "question": "human",
+   "text": "Was a person involved, and who?",
+   "correct": {
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 10
+   },
+   "record": 1.0,
+   "replay_correct": 0.0,
+   "replay_wrong": 0.0,
+   "unanswerable": 0.0,
+   "record_wrong": 0.0
+  }
+ ],
+ "live_divergence": {
+  "30.0|tool 'holders.profile'": 4548,
+  "30.0|human (not recorded for live re-execution)": 5693,
+  "30.0|tool 'fx.spot'": 2727,
+  "30.0|tool 'claims_db.get'": 226,
+  "30.0|tool 'policy_store.get'": 243,
+  "30.0|config 'claims-agent'": 4678
+ },
+ "record_divergence": {
+  "30.0|3|model 'fraud' (score)": 16343,
+  "30.0|1|final 'final' (rationale)": 2012,
+  "30.0|2|final 'final' (rationale)": 3013,
+  "30.0|0|final 'final' (amount)": 3606,
+  "30.0|1|final 'final' (amount, rationale)": 3458,
+  "30.0|1|input 'input' (payload, payload_hash)": 342,
+  "30.0|2|human 'adjuster.review' (replay requires a human decision that the record does not contain)": 722,
+  "30.0|3|human 'adjuster.review' (replay requires a human decision that the record does not contain)": 728,
+  "30.0|0|final 'final' (decided_by)": 414,
+  "30.0|1|final 'final' (decided_by, rationale)": 398,
+  "30.0|2|human 'adjuster.review' (replay reached final 'final' instead)": 603,
+  "30.0|1|final 'final' (amount, decided_by, rationale)": 196,
+  "30.0|0|final 'final' (amount, decided_by, decision)": 50,
+  "30.0|1|final 'final' (amount, decided_by, decision, rationale)": 51,
+  "30.0|0|final 'final' (amount, decision)": 102,
+  "30.0|1|final 'final' (amount, decision, rationale)": 55,
+  "30.0|0|final 'final' (amount, decided_by)": 216,
+  "30.0|3|rule 'governance.qa_sample' (inputs)": 20,
+  "30.0|2|final 'final' (replay reached external 'narrative.assess' instead)": 347,
+  "30.0|2|human 'adjuster.review' (replay reached external 'narrative.assess' instead)": 167,
+  "30.0|0|final 'final' (decision)": 3,
+  "30.0|1|final 'final' (decision, rationale)": 3,
+  "30.0|3|rule 'governance.fraud_score' (inputs)": 4,
+  "30.0|0|final 'final' (decided_by, decision)": 3,
+  "30.0|1|final 'final' (decided_by, decision, rationale)": 1
+ },
+ "unrecorded": {
+  "30.0|0|agent version": 9964,
+  "30.0|0|model version": 7059,
+  "30.0|0|random draw": 7059,
+  "30.0|0|tool claims_db.get": 9964,
+  "30.0|0|tool documents.get": 7059,
+  "30.0|0|tool holders.profile": 7059,
+  "30.0|0|tool policy_store.get": 9964,
+  "30.0|1|agent version": 7823,
+  "30.0|1|model version": 5034,
+  "30.0|1|random draw": 5034,
+  "30.0|1|tool claims_db.get": 7823,
+  "30.0|1|tool documents.get": 5034,
+  "30.0|1|tool holders.profile": 5034,
+  "30.0|1|tool policy_store.get": 7823,
+  "30.0|2|agent version": 15148,
+  "30.0|2|model version": 12243,
+  "30.0|2|random draw": 12243,
+  "30.0|3|agent version": 2905,
+  "30.0|0|tool fx.spot": 584,
+  "30.0|1|tool fx.spot": 368,
+  "30.0|0|external narrative.assess": 837,
+  "30.0|1|external narrative.assess": 353
+ },
+ "decision_types": {
+  "calculation": 7009,
+  "opaque": 973,
+  "fx": 4345,
+  "rule": 2905,
+  "human": 3455,
+  "stochastic": 866,
+  "model": 447
+ },
+ "decisions": 20000,
+ "provenance": {
+  "experiment": "e1_reconstruction",
+  "description": "E1: reconstruction by instrumentation level and decision type (record and live replay, 30-day audit delay), with audit-question answerability",
+  "kind": "reconstruction",
+  "run_id": "20261008T061346Z-f561923",
+  "created_at": "20261008T061346Z",
+  "commit": "f56192313b91ebbe7c24363a4cf9fdfb977eb162",
+  "base_seed": 20261008,
+  "seeds": 10,
+  "n_claims": 2000,
+  "python": "3.13.16",
+  "workers": 4,
+  "runtime_seconds": 62.8
+ }
+}

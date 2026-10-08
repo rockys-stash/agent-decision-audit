@@ -1,0 +1,27 @@
+experiment: e3_violations
+kind: violations
+description: 'E3: automated detection of injected policy violations by instrumentation
+  level; rule checks, reference replay and sample audits'
+base_seed: 20261008
+seeds: 20
+n_claims: 2000
+workers: 4
+delays:
+- 30.0
+levels:
+- 0
+- 1
+- 2
+- 3
+- 4
+answer_delay: null
+live: true
+attempt_rate: 0.4
+sample_rates:
+- 0.05
+- 0.1
+trials: 100
+checkpoint_every: 100
+anchor_every: 1000
+repeats: 3
+standard: configs/audit_standard.yaml

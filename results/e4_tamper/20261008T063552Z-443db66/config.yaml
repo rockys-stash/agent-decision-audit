@@ -1,0 +1,27 @@
+experiment: e4_tamper
+kind: tamper
+description: 'E4: tamper evidence of the stored log against eight attacks and four
+  integrity layers'
+base_seed: 20261008
+seeds: 5
+n_claims: 300
+workers: 4
+delays:
+- 30.0
+levels:
+- 0
+- 1
+- 2
+- 3
+- 4
+answer_delay: null
+live: true
+attempt_rate: 0.4
+sample_rates:
+- 0.05
+- 0.1
+trials: 100
+checkpoint_every: 100
+anchor_every: 1000
+repeats: 3
+standard: configs/audit_standard.yaml

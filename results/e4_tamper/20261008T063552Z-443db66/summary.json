@@ -1,0 +1,353 @@
+{
+ "rows": [
+  {
+   "attack": "edit_event",
+   "defense": "sequence_only",
+   "trials": 500,
+   "detected": 0.0,
+   "localised": null,
+   "localised_within_checkpoint": null,
+   "after_last_anchor": 52,
+   "detected_after_last_anchor": 0
+  },
+  {
+   "attack": "edit_event",
+   "defense": "hash_chain",
+   "trials": 500,
+   "detected": 1.0,
+   "localised": 1.0,
+   "localised_within_checkpoint": 1.0,
+   "after_last_anchor": 52,
+   "detected_after_last_anchor": 52
+  },
+  {
+   "attack": "edit_event",
+   "defense": "chain_and_signed_checkpoints",
+   "trials": 500,
+   "detected": 1.0,
+   "localised": 1.0,
+   "localised_within_checkpoint": 1.0,
+   "after_last_anchor": 52,
+   "detected_after_last_anchor": 52
+  },
+  {
+   "attack": "edit_event",
+   "defense": "chain_checkpoints_and_anchor",
+   "trials": 500,
+   "detected": 1.0,
+   "localised": 1.0,
+   "localised_within_checkpoint": 1.0,
+   "after_last_anchor": 52,
+   "detected_after_last_anchor": 52
+  },
+  {
+   "attack": "edit_blob",
+   "defense": "sequence_only",
+   "trials": 500,
+   "detected": 0.0,
+   "localised": null,
+   "localised_within_checkpoint": null,
+   "after_last_anchor": 54,
+   "detected_after_last_anchor": 0
+  },
+  {
+   "attack": "edit_blob",
+   "defense": "hash_chain",
+   "trials": 500,
+   "detected": 1.0,
+   "localised": 1.0,
+   "localised_within_checkpoint": 1.0,
+   "after_last_anchor": 54,
+   "detected_after_last_anchor": 54
+  },
+  {
+   "attack": "edit_blob",
+   "defense": "chain_and_signed_checkpoints",
+   "trials": 500,
+   "detected": 1.0,
+   "localised": 1.0,
+   "localised_within_checkpoint": 1.0,
+   "after_last_anchor": 54,
+   "detected_after_last_anchor": 54
+  },
+  {
+   "attack": "edit_blob",
+   "defense": "chain_checkpoints_and_anchor",
+   "trials": 500,
+   "detected": 1.0,
+   "localised": 1.0,
+   "localised_within_checkpoint": 1.0,
+   "after_last_anchor": 54,
+   "detected_after_last_anchor": 54
+  },
+  {
+   "attack": "delete_event",
+   "defense": "sequence_only",
+   "trials": 500,
+   "detected": 0.0,
+   "localised": null,
+   "localised_within_checkpoint": null,
+   "after_last_anchor": 43,
+   "detected_after_last_anchor": 0
+  },
+  {
+   "attack": "delete_event",
+   "defense": "hash_chain",
+   "trials": 500,
+   "detected": 1.0,
+   "localised": 1.0,
+   "localised_within_checkpoint": 1.0,
+   "after_last_anchor": 43,
+   "detected_after_last_anchor": 43
+  },
+  {
+   "attack": "delete_event",
+   "defense": "chain_and_signed_checkpoints",
+   "trials": 500,
+   "detected": 1.0,
+   "localised": 1.0,
+   "localised_within_checkpoint": 1.0,
+   "after_last_anchor": 43,
+   "detected_after_last_anchor": 43
+  },
+  {
+   "attack": "delete_event",
+   "defense": "chain_checkpoints_and_anchor",
+   "trials": 500,
+   "detected": 1.0,
+   "localised": 1.0,
+   "localised_within_checkpoint": 1.0,
+   "after_last_anchor": 43,
+   "detected_after_last_anchor": 43
+  },
+  {
+   "attack": "insert_event",
+   "defense": "sequence_only",
+   "trials": 500,
+   "detected": 0.0,
+   "localised": null,
+   "localised_within_checkpoint": null,
+   "after_last_anchor": 57,
+   "detected_after_last_anchor": 0
+  },
+  {
+   "attack": "insert_event",
+   "defense": "hash_chain",
+   "trials": 500,
+   "detected": 1.0,
+   "localised": 1.0,
+   "localised_within_checkpoint": 1.0,
+   "after_last_anchor": 57,
+   "detected_after_last_anchor": 57
+  },
+  {
+   "attack": "insert_event",
+   "defense": "chain_and_signed_checkpoints",
+   "trials": 500,
+   "detected": 1.0,
+   "localised": 0.99,
+   "localised_within_checkpoint": 0.99,
+   "after_last_anchor": 57,
+   "detected_after_last_anchor": 57
+  },
+  {
+   "attack": "insert_event",
+   "defense": "chain_checkpoints_and_anchor",
+   "trials": 500,
+   "detected": 1.0,
+   "localised": 0.99,
+   "localised_within_checkpoint": 0.99,
+   "after_last_anchor": 57,
+   "detected_after_last_anchor": 57
+  },
+  {
+   "attack": "reorder_events",
+   "defense": "sequence_only",
+   "trials": 500,
+   "detected": 0.0,
+   "localised": null,
+   "localised_within_checkpoint": null,
+   "after_last_anchor": 55,
+   "detected_after_last_anchor": 0
+  },
+  {
+   "attack": "reorder_events",
+   "defense": "hash_chain",
+   "trials": 500,
+   "detected": 1.0,
+   "localised": 1.0,
+   "localised_within_checkpoint": 1.0,
+   "after_last_anchor": 55,
+   "detected_after_last_anchor": 55
+  },
+  {
+   "attack": "reorder_events",
+   "defense": "chain_and_signed_checkpoints",
+   "trials": 500,
+   "detected": 1.0,
+   "localised": 1.0,
+   "localised_within_checkpoint": 1.0,
+   "after_last_anchor": 55,
+   "detected_after_last_anchor": 55
+  },
+  {
+   "attack": "reorder_events",
+   "defense": "chain_checkpoints_and_anchor",
+   "trials": 500,
+   "detected": 1.0,
+   "localised": 1.0,
+   "localised_within_checkpoint": 1.0,
+   "after_last_anchor": 55,
+   "detected_after_last_anchor": 55
+  },
+  {
+   "attack": "truncate_tail",
+   "defense": "sequence_only",
+   "trials": 500,
+   "detected": 0.0,
+   "localised": null,
+   "localised_within_checkpoint": null,
+   "after_last_anchor": 211,
+   "detected_after_last_anchor": 0
+  },
+  {
+   "attack": "truncate_tail",
+   "defense": "hash_chain",
+   "trials": 500,
+   "detected": 0.0,
+   "localised": null,
+   "localised_within_checkpoint": null,
+   "after_last_anchor": 211,
+   "detected_after_last_anchor": 0
+  },
+  {
+   "attack": "truncate_tail",
+   "defense": "chain_and_signed_checkpoints",
+   "trials": 500,
+   "detected": 0.0,
+   "localised": null,
+   "localised_within_checkpoint": null,
+   "after_last_anchor": 211,
+   "detected_after_last_anchor": 0
+  },
+  {
+   "attack": "truncate_tail",
+   "defense": "chain_checkpoints_and_anchor",
+   "trials": 500,
+   "detected": 0.578,
+   "localised": 1.0,
+   "localised_within_checkpoint": 1.0,
+   "after_last_anchor": 211,
+   "detected_after_last_anchor": 0
+  },
+  {
+   "attack": "rewrite_without_key",
+   "defense": "sequence_only",
+   "trials": 500,
+   "detected": 0.0,
+   "localised": null,
+   "localised_within_checkpoint": null,
+   "after_last_anchor": 51,
+   "detected_after_last_anchor": 0
+  },
+  {
+   "attack": "rewrite_without_key",
+   "defense": "hash_chain",
+   "trials": 500,
+   "detected": 0.0,
+   "localised": null,
+   "localised_within_checkpoint": null,
+   "after_last_anchor": 51,
+   "detected_after_last_anchor": 0
+  },
+  {
+   "attack": "rewrite_without_key",
+   "defense": "chain_and_signed_checkpoints",
+   "trials": 500,
+   "detected": 0.994,
+   "localised": 0.006036217303822937,
+   "localised_within_checkpoint": 1.0,
+   "after_last_anchor": 51,
+   "detected_after_last_anchor": 48
+  },
+  {
+   "attack": "rewrite_without_key",
+   "defense": "chain_checkpoints_and_anchor",
+   "trials": 500,
+   "detected": 0.994,
+   "localised": 0.006036217303822937,
+   "localised_within_checkpoint": 1.0,
+   "after_last_anchor": 51,
+   "detected_after_last_anchor": 48
+  },
+  {
+   "attack": "rewrite_with_key",
+   "defense": "sequence_only",
+   "trials": 500,
+   "detected": 0.0,
+   "localised": null,
+   "localised_within_checkpoint": null,
+   "after_last_anchor": 55,
+   "detected_after_last_anchor": 0
+  },
+  {
+   "attack": "rewrite_with_key",
+   "defense": "hash_chain",
+   "trials": 500,
+   "detected": 0.0,
+   "localised": null,
+   "localised_within_checkpoint": null,
+   "after_last_anchor": 55,
+   "detected_after_last_anchor": 0
+  },
+  {
+   "attack": "rewrite_with_key",
+   "defense": "chain_and_signed_checkpoints",
+   "trials": 500,
+   "detected": 0.0,
+   "localised": null,
+   "localised_within_checkpoint": null,
+   "after_last_anchor": 55,
+   "detected_after_last_anchor": 0
+  },
+  {
+   "attack": "rewrite_with_key",
+   "defense": "chain_checkpoints_and_anchor",
+   "trials": 500,
+   "detected": 0.89,
+   "localised": 0.0,
+   "localised_within_checkpoint": 0.0898876404494382,
+   "after_last_anchor": 55,
+   "detected_after_last_anchor": 0
+  }
+ ],
+ "events_per_log": [
+  8709,
+  8851,
+  8999,
+  8948,
+  8855
+ ],
+ "clean_logs_valid": true,
+ "anchors_per_log": [
+  8,
+  8,
+  8,
+  8,
+  8
+ ],
+ "provenance": {
+  "experiment": "e4_tamper",
+  "description": "E4: tamper evidence of the stored log against eight attacks and four integrity layers",
+  "kind": "tamper",
+  "run_id": "20261008T063552Z-443db66",
+  "created_at": "20261008T063552Z",
+  "commit": "443db66ab94aafa640e3fdfda52b011c7d5d0193",
+  "base_seed": 20261008,
+  "seeds": 5,
+  "n_claims": 300,
+  "python": "3.13.16",
+  "workers": 4,
+  "runtime_seconds": 671.7
+ }
+}
