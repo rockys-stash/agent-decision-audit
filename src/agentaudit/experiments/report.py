@@ -106,6 +106,11 @@ def _prov(s: dict[str, Any]) -> str:
     )
 
 
+def _span(values: list[int]) -> str:
+    lo, hi = min(values), max(values)
+    return f"{lo:,}" if lo == hi else f"{lo:,} to {hi:,}"
+
+
 def _pending(title: str, exp: str) -> list[str]:
     return [f"## {title}", "", f"Status: pending (no completed run of `{exp}`).", ""]
 
@@ -320,7 +325,7 @@ def _e4_tables(s: dict[str, Any]) -> list[str]:
     ev = s["events_per_log"]
     out = ["## E4: Tamper evidence of the stored log", "", _prov(s), "",
            f"Each seed records a clean run into SQLite ({min(ev):,} to {max(ev):,} events per log; "
-           f"{min(s['anchors_per_log'])} to {max(s['anchors_per_log'])} anchors) and applies every attack "
+           f"{_span(s['anchors_per_log'])} anchors) and applies every attack "
            f"{s['rows'][0]['trials'] // len(ev)} times at random positions. Untampered logs verified as valid: "
            f"{'yes' if s['clean_logs_valid'] else 'no'}. _Detected_ is the share of tampered logs the defence rejects; "
            "_located_ is the share of detections that point at the tampered event exactly.", "",
