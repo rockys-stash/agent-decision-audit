@@ -400,7 +400,7 @@ def _rate(t: TraceView, std: Standard, live: Live | None) -> list[Finding] | Non
                         t,
                         "rate_freshness",
                         e.step,
-                        f"exchange rate {age:.0f} days old (max {std.max_rate_age_days:.0f})",
+                        f"exchange rate {age:.1f} days old (max {std.max_rate_age_days:.0f})",
                     )
                 )
     return out
