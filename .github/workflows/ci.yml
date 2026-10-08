@@ -21,8 +21,10 @@ jobs:
       - run: uv run ruff format --check .
       - run: uv run mypy src tests
       - run: uv run pytest
-      - name: Report regenerates byte-identical from committed results
-        run: uv run agentaudit report && git diff --exit-code research
+      # Tables must regenerate byte-identical. Figure layout depends on which fonts are
+      # installed, so figures are regenerated (to prove the code runs) but not compared.
+      - name: Report tables regenerate byte-identical from committed results
+        run: uv run agentaudit report && git diff --exit-code research/generated
 
   web:
     runs-on: ubuntu-latest
