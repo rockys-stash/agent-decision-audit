@@ -65,13 +65,17 @@ def _edit(body: dict[str, Any]) -> dict[str, Any]:
     for key in ("amount", "value", "score", "passed", "decision"):
         if key in data:
             v = data[key]
-            data[key] = (
-                (not v)
-                if isinstance(v, bool)
-                else (v * 0.5 if isinstance(v, int | float) else "pay")
-            )
-            return b
-    data["note"] = "edited"
+            if isinstance(v, bool):
+                data[key] = not v
+            elif isinstance(v, int | float):
+                data[key] = v * 0.5 if v else 1.0  # halving zero would change nothing
+            else:
+                data[key] = "deny" if v == "pay" else "pay"
+            break
+    else:
+        data["note"] = "edited"
+    if b == body:  # an attack that changes nothing would be counted as undetected
+        raise AssertionError("edit left the event unchanged")
     return b
 
 

@@ -188,6 +188,16 @@ def test_each_attack_is_caught_by_the_layer_designed_for_it(tmp_path: Path, kind
         assert anchored.valid == (t.target > last_anchor)
 
 
+def test_edit_attack_always_changes_the_event() -> None:
+    """Regression: halving a zero amount or setting "pay" to "pay" was a no-op edit, which E4
+    then counted as an undetected attack."""
+    from agentaudit.tamper import _edit
+
+    for data in ({"amount": 0.0}, {"decision": "pay"}, {"passed": False}, {"value": 3}, {"x": 1}):
+        body = {"kind": "final", "data": data}
+        assert _edit(body) != body
+
+
 # --- replay ----------------------------------------------------------------------------------
 def test_full_instrumentation_reproduces_every_decision(
     world_sim: tuple[World, MemoryLog, dict[str, dict[str, object]]],
